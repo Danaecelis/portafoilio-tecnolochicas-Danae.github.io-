@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Danae Celis | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://media.licdn.com/dms/image/D4E03AQH0x2kObjvn3Q/profile-displayphoto-shrink_200_200/0/1699115552973?e=1704931200&v=beta&t=pLePbTdoHiPn4rAtEl_xBZxX5Q4PFgQ-W39JO8pQVWQ" alt="Foto de Dana">
+        <h1>Hola, soy Danae Celis</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://cdn-icons-png.flaticon.com/512/4757/4757487.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Danae Celis </h2>
+        <p class="seccion-texto">Soy una perspectiva tranquila y un enfoque pragmático, con una mente analítica y resolutiva.  abordo problemas con calma y encuentro soluciones prácticas definiendo mi enfoque hacia la vida. aprecia la Simplicidad y valora la eficiencia, ya sea en proyectos profesionales o en momentos de tranquilidad personal. Descubre más sobre mi experiencia  y el enfoque equilibrado en la página web.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>El desarrollo web implica la creación y mantenimiento de sitios web. se realizar tareas como el diseño, la programación y la gestión de contenido para garantizar la funcionalidad y estética del sitio. Los desarrolladores web utilizan lenguajes de programación y herramientas específicas para construir sitios que puedan ser accesibles y atractivos. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info">HTML</span>
+              <span class="badge text-bg-info">CSS</span>
+              <span class="badge text-bg-info">JavaScript</span>
+              <span class="badge text-bg-info">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Logistica</p>
+            <p>LPoseo habilidades en logística, a cubrir la gestión eficiente de la cadena de suministro, desde la planificación hasta la entrega final. Mi experiencia incluye la coordinación de actividades como transporte, almacenamiento y distribución, con un enfoque en optimizar procesos para garantizar un flujo eficiente de productos y minimizar costos.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info">EXPORTACION</span>
+              <span class="badge text-bg-info">COMERCIO</span>
+              <span class="badge text-bg-info">ADMINISTRACION</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy estudiante de la carrera de Logistica en la Universidad Autonoma del Estado de Mexico busco conocimientos prácticos en mi campo a través de clases, investigaciones y colaboraciones con compañeros. Me esfuerzo por mejorar constantemente mis habilidades académicas y profesionales mediante proyectos y actividades extracurriculares. Estoy abierta a nuevas experiencias que contribuirán a mi crecimiento personal y académico.. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info">Tecnolochicas PRO</span>
+              <span class="badge text-bg-info">UAEMex</span>
+              <span class="badge text-bg-info">LOGISTICA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Clon google.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/cuadros.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/curriculum vitae.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/paginaweb.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lh3.googleusercontent.com/a-/ALV-UjVO9v87dofDFqYlFqKbJhgQI5Okfh345tUuKCEI5YGoLBcDol-6OBBejwMIermzOKD9fDP0pIvxeYD3-U5UbsTxe2Nlyj4KIzNOIc0Z1TS8dlhx2cFiugEWjHPNo-272AuUGYMQqPh2PAu8xR5G1e-Ne1_z92M_ZaboF73EluWoflny1-e-O5VaU7QmmAanvdyTHYsEAXiOEsL-_LoS0rKFP8MgCPYx2M-vwyd9qU42tq8hesUpKJNak8Y02lBGQQj5hw-JYG6Ej7JNsFiW1A1WwmvGFys7xkaNHgzJsaTkHT1yjTNHgqvBSH2EbZpo6ODqozuhSIGhUwoddLwlvN_lTujqXw1YW9goD_YBBukGcLxSnmPWzASQKS43w3M9ovVJCE5KzWPNlzA7swC7oKa0EUraGdq4ODdnT5WJD8ABaIdy1e1849kpCU4XqCBhz92Ygn-ZHHeJKVDTqRhTUNuCun5CqwG7_xIUBdsSf0HixMgBm7GB2vSFui4BQKN_ca0zDAJ34f6pq8Wc4N8w7nnpQYv3VkVtdDJ8gO6PrJt7iAMBnl66sMNXeHvMYI_OLcj3CXupR4qcQR4NS8W1fZFh5w0wWQIFNqR8mF070eETpBUb8Cr3tikazASikWn6HejDqBnYBOkch20xVpUxmVmv0BR77b8f9ngFaOQFAyTRMuE5UetIM_MTMwFFluJb-ZjtdjkStI4TLRBphFXT5S9rrrzN94uTX6QNR59zkeXpI5bB6OBftjs8Pn2yb_IxGi1lDINgliT8v7JwyF34-mRn-VKJeUtk26DTZF3juHCvCX5MNfyOg9dCmGw5kWA76vst4SmMdcwxYptmtciN4_hMjJptJV5kGRPIT4bmsHmQEt4WRFAIJBtL-atZjsEHmDJK-J6qsyG_TfN1gd4PyrUjGg3TIE4ewlekQR95bep2P65xryYny_r7gOnz9mDUPRM=s288-c-no  " alt="Fátima Rocío López Ceballos ">
+              <p class="testimonio-texto"> Es una persona muy responsable y creativa, siempre busca la mejor solución para los problemas de la manera más efectiva. Es muy buena para trabajar en equivo y es una persona </p>
+              <div class="testimonio-info">
+                <p class="cliente">Fátima Rocío López Ceballos </p>
+                <p class="cargo">Clienta</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lh3.googleusercontent.com/a/ACg8ocK7IjYhZT_Z-T43gFDUAYfPBLB0h6DEJ4VocprVBIZhCg4=s288-c-no" alt="Foto de Nora">
+              <p class="testimonio-texto">Es una persona interesada en el aprendizaje, dedicada, creativa  y responsable. Se compromete en todo lo que se propone y logra alcanzarlo. .</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alejandra Balcazar </p>
+                <p class="cargo">CLienta</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1155151337022050355/1172954533811462184/1684464702431.jpeg?ex=65623209&is=654fbd09&hm=350b75a1b318cf358c7897ed73d71201709eff1dfb46ac43e252b16dab5df93e&=&width=401&height=401" alt="Foto de Leonardo">
+              <p class="testimonio-texto">La alumna Danae Celis ha demostrado un notable compromiso en el aula, destacándose por el desarrollo de proyectos de alta calidad que reflejan sus sólidos conocimientos en el ámbito del Frontend, específicamente en HTML y CSS. Además, muestra un compromiso constante con las fechas de entrega y exhibe una notable creatividad en sus trabajos..</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana Fernanda Gutiérrez Villanueva</p>
+                <p class="cargo">Mentora</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="danaeecriss@gmail.com.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="https://twitter.com/DanaeCelis3">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="https://www.linkedin.com/in/danae-celis-92b955299/">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="https://www.instagram.com/dana_cevi/">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Danae Celis(2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
